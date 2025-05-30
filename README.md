@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css ">
     <title>Flashcard</title>
 </head>
 <body>
@@ -10,23 +6,23 @@
         <section id="container">
             <article class="cartao">
                 <div class="cartao__conteudo">
-                    <h3>historia</h3>
+                    <h3>PROGRAMAÇÃO</h3>
                     <div class="cartao__conteudo__pergunta">
-                        em que ano aconteceu a guerra dos canudos no Brasil?
+                        O que é javascript?
                     </div>
                     <div class="cartao__conteudo__resposta">
-                        A Guerra de Canudos foi um confronto armado que ocorreu entre 1896 e 1897, no sertão da Bahia.
+                        O javascript é uma linguagem de programação.
                     </div>
                 </div>
             </article>
             <article class="cartao">
                 <div class="cartao__conteudo">
-                    <h3>historia</h3>
+                    <h3>PROGRAMAÇÃO</h3>
                     <div class="cartao__conteudo__pergunta">
-                        em que ano aconteceu a guerra fria?
+                        o que é CSS?
                     </div>
                     <div class="cartao__conteudo__resposta">
-                        A Guerra Fria foi um conflito político-ideológico que foi travado entre Estados Unidos (EUA) e União Soviética (URSS), entre 1947 e 1991.
+                        O CSS é uma linguagem estilização.
                     </div>
                 </div>
             </article>
@@ -37,3 +33,28 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+body {
+ background-color: bisque;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.5rem;
+}
