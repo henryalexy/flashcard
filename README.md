@@ -19,6 +19,17 @@
                 <div class="cartao__conteudo">
                     <h3>PROGRAMAÇÃO</h3>
                     <div class="cartao__conteudo__pergunta">
+                        <p>quem foi a primeira pessoa a programar ?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                    <p>A primeira programadora da história foi Ada Lovelace.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>PROGRAMAÇÃO</h3>
+                    <div class="cartao__conteudo__pergunta">
                         <p>o que é CSS?</p>
                     </div>
                     <div class="cartao__conteudo__resposta">
@@ -34,7 +45,7 @@
 </body>
 </html>
 
-
+style.css
 
 
 body {
@@ -44,12 +55,27 @@ body {
    }
    #container{
 display: flex;
-   }
+ }
 
-.cartão{
+ .cartao {
     margin: 1rem  1rem;
-    background-color: blue;
+    background-color:aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+
+
 }
+
+.cartao__conteudo{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+
+
+
 
 
 
